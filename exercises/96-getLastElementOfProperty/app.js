@@ -1,1 +1,9 @@
 // Write your function here
+function getLastElementOfProperty (objeto,llave){
+    return objeto[llave][objeto[llave].length-1]
+}
+var obj = {
+    key: [1, 2, 5]
+  };
+  var output = getLastElementOfProperty(obj, 'key');
+  console.log(output); // --> 5

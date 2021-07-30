@@ -10,6 +10,6 @@ test ('The function must return only the elements that match the given keeper el
     
     var output = keep([1, 2, 3, 2, 1], 2)
 
-    expect().toBe();
+    expect(output).toStrictEqual([2,2]);
     
 })
